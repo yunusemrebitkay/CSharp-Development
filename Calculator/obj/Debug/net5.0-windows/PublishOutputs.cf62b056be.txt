@@ -1,0 +1,6 @@
+C:\Users\yunusemre\Desktop\Final Project\Calculator\bin\Debug\net5.0-windows\publish\Calculator.exe
+C:\Users\yunusemre\Desktop\Final Project\Calculator\bin\Debug\net5.0-windows\publish\Calculator.dll
+C:\Users\yunusemre\Desktop\Final Project\Calculator\bin\Debug\net5.0-windows\publish\Calculator.deps.json
+C:\Users\yunusemre\Desktop\Final Project\Calculator\bin\Debug\net5.0-windows\publish\Calculator.runtimeconfig.json
+C:\Users\yunusemre\Desktop\Final Project\Calculator\bin\Debug\net5.0-windows\publish\Calculator.pdb
+C:\Users\yunusemre\Desktop\Final Project\Calculator\bin\Debug\net5.0-windows\publish\NCalc.dll

@@ -1,0 +1,63 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <Platforms>AnyCPU;x64</Platforms>
+    <AssemblyName>Calculator</AssemblyName>
+    <RootNamespace>Calculator</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Accounts\**" />
+    <EmbeddedResource Remove="Accounts\**" />
+    <None Remove="Accounts\**" />
+    <Page Remove="Accounts\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Images\BG_.png" />
+    <None Remove="Images\BG_Login.png" />
+    <None Remove="Images\BG_Register.png" />
+    <None Remove="Images\BG_Welcome.png" />
+    <None Remove="Images\DontHave_Typrography.png" />
+    <None Remove="Images\DontWorry_Typrography.png" />
+    <None Remove="Images\history.png" />
+    <None Remove="Images\logout.png" />
+    <None Remove="Images\Logo_White.png" />
+    <None Remove="Images\profile-email.png" />
+    <None Remove="Images\profile-password.png" />
+    <None Remove="Images\profile-user.png" />
+    <None Remove="Images\vector1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ncalc" Version="1.3.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\BG_Login.png" />
+    <Resource Include="Images\BG_Register.png" />
+    <Resource Include="Images\BG_Welcome.png" />
+    <Resource Include="Images\DontHave_Typrography.png" />
+    <Resource Include="Images\DontWorry_Typrography.png" />
+    <Resource Include="Images\history.png" />
+    <Resource Include="Images\logout.png" />
+    <Resource Include="Images\Logo_White.png" />
+    <Resource Include="Images\profile-email.png" />
+    <Resource Include="Images\profile-password.png" />
+    <Resource Include="Images\profile-user.png" />
+    <Resource Include="Images\vector1.png" />
+  </ItemGroup>
+
+</Project>
